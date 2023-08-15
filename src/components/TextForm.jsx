@@ -111,8 +111,8 @@ export default function TextForm(props) {
             <strong>ALERT!!</strong>  Do you really want to clear the text...?
             </div>
             <div>
-            <Button variant="warning" onClick={YesClicked}>YES</Button>{' '}
-            <Button variant="warning" onClick={NoClicked}>NO</Button>
+            <Button variant="warning" style={{margin:'1px 0px'}} onClick={YesClicked}>YES</Button>{' '}
+            <Button variant="warning" style={{margin:'1px 0px'}} onClick={NoClicked}>NO</Button>
             </div>
           </div>
         </Alert>
